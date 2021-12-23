@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+.header{
+    min-height: 1024px;
+    max-width:1440px;
+    background-image: url(Photos/hochiminh1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+nav{
+    display:flex;
+    padding: 17px 35px ;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 144px;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 29px 51px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:lighter;
+
+}
+.text-box pre{
+    width: 90%;
+    color:#FFFFFF;
+    position: absolute;
+    top: 5%;
+    left:50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    font-family: 'Yrsa', serif;
+    color: #FFFFFF;
+    font-size: 150px;
+}
