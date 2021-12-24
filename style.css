@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'roboto';
+    font-family: 'Roboto', sans-serif;
 }
 .header{
     min-height: 1024px;
@@ -14,29 +14,44 @@
 }
 nav{
     display:flex;
-    padding: 17px 35px ;
     justify-content: space-between;
     align-items: center;
 }
 nav img{
     width: 144px;
+    padding: 17px 35px ;
 }
 .nav-links{
     flex:1;
     text-align: right;
+    padding: 17px 35px ;
 }
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 29px 51px;
     position: relative;
-    
+    padding: 17px 35px ;
 }
 .nav-links ul li a{
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-weight:lighter;
+
+}
+.nav-links ul li button{
+
+    border-radius: 23px;
+    background-color: rgb(250,250,250,0.4);
+    border: none;
+    padding: 13px 25px;
+    text-align: center;
+    display: inline-block;
+    /* */
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:100px;
 
 }
 .text-box pre{
@@ -50,4 +65,115 @@ nav img{
     font-family: 'Yrsa', serif;
     color: #FFFFFF;
     font-size: 150px;
+}
+.BoxQuan-large{
+    font-style: normal;
+    font-weight:lighter;
+    font-size: 250px;
+    line-height: 337px ;
+    color: #909090;
+    text-align:center;
+}
+
+.timeline{
+    position: relative;
+    margin: 50px auto;
+    padding: 40px 0;
+    width: 1000px;
+    box-sizing: border-box;
+}
+.timeline:before{ /*center line*/
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #909090;
+}
+.timeline ul{
+    margin: 0;
+    padding: 0;
+}
+.timeline ul li{
+    list-style: none;
+    position: relative;
+    width: 50%;
+    padding: 497px 100px; /*20px 40px*/
+    box-sizing: border-box;
+}
+.timeline ul li:nth-child(odd){
+    float: left;
+    text-align: right;
+    clear:both;
+}
+.timeline ul li:nth-child(even){
+    float: right;
+    text-align: left;
+    clear:both;
+}
+.description{
+    padding-bottom: 20px;
+    /*background: rgba(0, 255, 242, 0.527);*/
+    transform: translateY(-480px);
+    font-size: 20px;
+} 
+.timeline ul li:nth-child(odd):before{ /*cham tron so le*/
+    content: '';
+    position: absolute;
+    top:24px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    background: #909090;
+    border-radius: 50%;
+
+}
+.timeline ul li:nth-child(even):before{ /*cham tron so chan*/
+    content: '';
+    position: absolute;
+    top:24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background: #909090;
+    border-radius: 50%;
+}
+.timeline ul li p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+/*BLOCK QUAN*/
+.timeline ul li .blockquan{
+    margin: 0;
+    padding-bottom:0;
+    text-align: center;
+}
+.timeline ul li:nth-child(odd) .block-quan{
+    position: absolute;
+    top:12px;
+    right:-165px;
+    margin: 0;
+    padding: 70px 84px;
+    background: rgba(255, 0, 0, 0.3);
+    color: black;
+    border-radius: 70px;
+    border-top-left-radius: 0px;
+    transform: translateX(350px);
+    font-size: 50px;
+    font-weight: 30px;
+}
+.timeline ul li:nth-child(even) .block-quan{
+    position: absolute;
+    top:12px;
+    left:-165px;
+    margin: 0;
+    padding: 70px 84px;
+    background: rgba(255, 0, 0, 0.3);
+    color: black;
+    border-radius: 70px;
+    border-top-right-radius: 0px;
+    transform: translateX(-350px);
+    font-size: 50px;
+    font-weight: 30px;
 }
