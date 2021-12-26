@@ -2,104 +2,183 @@
 <head>
     <meta charset="utf-8">
     <title>Sài Gòn Overview - NotTheWinners</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css"> <!--lINK FILE CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--lINK FONTS-->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Yrsa:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--lINK ICONS-->
 </head>
-
+ 
 <html>
 <body>
-    <section class="header">
-        <nav>
-            <a href=index.html><img  src="Photos/LOGO.png" alt=""></a>
-            <div class='nav-links'>
-                <ul>
-                    <li><a href="">Quận 1</a></li>
-                    <li><a href="">Quận 2</a></li>
-                    <li><a href="">Quận 3</a></li>
-                    <li><a href="">Quận 4</a></li>
-                    <li><a href="">Quận 5</a></li>
-                    <li><button><a href="">Home</a></button></li>
-                </ul>
-            </div>
-        </nav>
-        <div class='text-box'>
-            <pre>Sài Gòn 
-Overview
-            </pre>
-
+  <!--TOOLBAR-->
+  <section class="header">
+    <nav>
+        <a href=index.html><img  src="Photos/LOGO.png" alt=""></a>
+        <div class='nav-links'>
+            <ul>
+                <li><a href="quan1.html">Quận 1</a></li>
+                <li><a href="">Quận 2</a></li>
+                <li><a href="">Quận 3</a></li>
+                <li><a href="">Quận 4</a></li>
+                <li><a href="">Quận 5</a></li>
+                <li><button class="hbutton"><a href="index.html"><p>Home</p></a></button></li>
+            </ul>
         </div>
-
-    </section>
-
-    <div class="BoxQuan-large">
-        <p>Quận</p>
+    </nav>
+    <div class='text-box'>
+      <pre>Sài Gòn
+Overview
+      </pre>
     </div>
+  </section>
 
-    <div class="timeline">
-        <ul>
-            <li>
-                <div class="description">
-                    <p>Được mệnh danh là chốn xa hoa bậc nhất Sài Gòn, Quận 1 ngay từ khi chào đời đã mang dáng vẻ của sự phát triển, nhộn nhịp để đến hôm nay xứng đáng là trung tâm của mảnh đất mang tên Bác</p>
-                </div>
-                <div class="block-quan">
-                    <h2>Quận 1</h2>
-                </div>
-            </li>
-            <li>
-                <div class="description">
-                    <p>Là một quận nằm ở phía Đông Bắc nội thành của TP.HCM, Quận 2 đang từng ngày vươn lên phát triển mạnh mẽ để đáp ứng nhu cầu đô thị hóa, trong tương lai gần nơi đây được xem là trung tâm hành chính thương mại mới</p>
-                </div>
-                <div class="block-quan">
-                    <h2>Quận 2</h2>
-                </div>
-            </li>
-            <li>
-                <div class="description">
-                    <p>Về quận 3 (TP.HCM), trang Time Out cho rằng đây là nơi giao thoa giữa văn hóa địa phương và văn hóa quốc tế, náo nhiệt nhưng ít xô bồ, và là nơi sự phát triển hiện đại nhưng vẫn giữ được giá trị lịch sử</p>
-                </div>
-                <div class="block-quan">
-                    <h2>Quận 3</h2>
-                </div>
-            </li>
-            <li>
-                <div class="description">
-                    <p>Quận 4 là nơi có di tích Bến Nhà Rồng, Bảo tàng Hồ Chí Minh, nhà thờ Xóm Chiếu... cùng nhiều kiến trúc tôn giáo khác.</p>
-                </div>
-                <div class="block-quan">
-                    <h2>Quận 4</h2>
-                </div>
-            </li>
-            <li>
-                <div class="description">
-                    <p>Là nơi tập trung nhiều người Hoa sinh sống và làm việc nhất, quận 5 có nhiều hội quán, chùa chiền ghi dấu ấn của văn hóa Trung Quốc khi du nhập vào Việt Nam</p>
-                </div>
-                <div class="block-quan">
-                    <h2>Quận 5</h2>
-                </div>
-            </li>
-            <div style="clear:both;"></div>
-        </ul>
+    <div >
+      <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-style: normal;font-weight: 200;font-size:20;            line-height: 337px ;color: #909090;text-align:center" ;>
+        Quận trong phố
+      </h2>
     </div>
+  
+  <div>
+
+<p class="sub">
+  Người Sài Gòn trước đây có câu : “Ăn quận 5, nằm quận 3, xa hoa quận 1”
+    </p>
+  </div>
 
 
-    <!--phan contact-->
-    <!--
-    <div>
-        <h8 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-weight: 700;font-style: normal;font-size: 36px;line-height: 42,19px;text-align: center;">Information</h8>
+       <div class="timeline-container" id="timeline-1">
+         
+  <div class="timeline">
+    <div class="timeline-item" data-text="Chốn xa hoa bậc nhất đất Sài Thành">
+      <div class="timeline__content"><img class="timeline__img" src="Photos/quan1.jpeg" />
+        <h2 class="timeline__content-title">Quận 1</h2>
+        <p class="timeline__content-desc">Được mệnh danh là chốn xa hoa bậc nhất Sài Gòn, Quận 1 ngay từ khi chào đời đã mang dáng vẻ của sự phát triển, nhộn nhịp để đến hôm nay xứng đáng là trung tâm của mảnh đất mang tên Bác</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text=" Quận Nhất mới của Sài Gòn">
+      <div class="timeline__content"><img class="timeline__img" src="Photos/quan2.jpg"/>
+        <h2 class="timeline__content-title">Quận 2</h2>
+        <p class="timeline__content-desc">Là một quận nằm ở phía Đông Bắc nội thành của TP.HCM, Quận 2 đang từng ngày vươn lên phát triển mạnh mẽ để đáp ứng nhu cầu đô thị hóa, trong tương lai gần nơi đây được xem là trung tâm hành chính thương mại mới </p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="khu phố được vinh danh tuyệt vời nhất thế giới">
+      <div class="timeline__content"><img class="timeline__img" src="Photos/quan3.jpg"/>
+        <h2 class="timeline__content-title">Quận 3</h2>
+        <p class="timeline__content-desc">về quận 3 (TP.HCM), trang Time Out cho rằng đây là nơi giao thoa giữa văn hóa địa phương và văn hóa quốc tế, náo nhiệt nhưng ít xô bồ, và là nơi sự phát triển hiện đại nhưng vẫn giữ được giá trị lịch sử</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Nơi Bác Hồ ra đi tìm đường cứu nước">
+      <div class="timeline__content"><img class="timeline__img" src="Photos/quan4.jpg"/>
+        <h2 class="timeline__content-title">Quận 4</h2>
+        <p class="timeline__content-desc">Là nơi có di tích Bến Nhà Rồng, Bảo tàng Hồ Chí Minh, nhà thờ Xóm Chiếu... cùng nhiều kiến trúc tôn giáo khác.
+</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Cái nôi ẩm thực của Sài Thành">
+      <div class="timeline__content"><img class="timeline__img" src="Photos/quan5.jpg"/>
+        <h2 class="timeline__content-title">Quận 5</h2>
+        <p class="timeline__content-desc">Là nơi tập trung nhiều người Hoa sinh sống và làm việc nhất, quận 5 có nhiều hội quán, chùa chiền ghi dấu ấn của văn hóa Trung Quốc khi du nhập vào Việt Nam.</p>
+      </div>
     </div>
    
- 
-    <div>
-        <h9 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-weight: 700;font-style: normal;font-size: 36px;line-height: 42,19px;text-align:center">Contact</h9>
-        <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-weight: 300;font-style: normal;font-size: 24px;line-height: 28,13px;text-align: center;"><tiffanylarcher559@gmail.com</p>
-        <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-weight: 300;font-style: normal;font-size: 24px;line-height: 28,13px;text-align: center;"><trandanghuy13456@gmail.com</p>
+    
+    
    
+  
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ <script>
+    
+    (function($) {
+  $.fn.timeline = function() {
+    var selectors = {
+      id: $(this),
+      item: $(this).find(".timeline-item"),
+      activeClass: "timeline-item--active",
+      img: ".timeline__img"
+    };
+    selectors.item.eq(0).addClass(selectors.activeClass);
+    selectors.id.css(
+      "background-image",
+      "url(" +
+        selectors.item
+          .first()
+          .find(selectors.img)
+          .attr("src") +
+        ")"
+    );
+    var itemLength = selectors.item.length;
+    $(window).scroll(function() {
+      var max, min;
+      var pos = $(this).scrollTop();
+      selectors.item.each(function(i) {
+        min = $(this).offset().top;
+        max = $(this).height() + $(this).offset().top;
+        var that = $(this);
+        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+          selectors.item.removeClass(selectors.activeClass);
+          selectors.id.css(
+            "background-image",
+            "url(" +
+              selectors.item
+                .last()
+                .find(selectors.img)
+                .attr("src") +
+              ")"
+          );
+          selectors.item.last().addClass(selectors.activeClass);
+        } else if (pos <= max - 40 && pos >= min) {
+          selectors.id.css(
+            "background-image",
+            "url(" +
+              $(this)
+                .find(selectors.img)
+                .attr("src") +
+              ")"
+          );
+          selectors.item.removeClass(selectors.activeClass);
+          $(this).addClass(selectors.activeClass);
+        }
+      });
+    });
+  };
+})(jQuery);
+
+$("#timeline-1").timeline();
+
+    </script>
+  
+
+  <footer>
+    <div class="container">
+        <div class="sec icons">
+            <a href=index.html><img  src="Photos/LOGO.png" alt=""></a>
+            <ul class="sci">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="sec IF info">
+            <h2>Information</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="sec IF contact">
+            <h2>Contact</h2>
+            <ul>
+                <li><p>tiffanylarcher559@gmail.com</p></li>
+                <li><p>trandanghuy13456@gmail.com</p></li>
+            </ul>
+        </div>
     </div>
--->
+ </footer>
  
- 
- 
+
 </body>
 </html>
+
